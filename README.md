@@ -21,7 +21,7 @@ As per the beta [announcement](https://medium.com/rocket-pool/rocket-pool-3-0-be
 
 # Field descriptions
 
-ETH amounts in data are denominated in Gwei. 1 ETH = 10e9 Gwei.
+ETH amounts in data are denominated in Gwei. 1 ETH = 1e9 Gwei.
 
 **rewards_rank**: Validator rank by **adjusted_balance** but only including one validator per node (**eth1_addr**)
 
@@ -39,6 +39,6 @@ ETH amounts in data are denominated in Gwei. 1 ETH = 10e9 Gwei.
 
 **start_balance**: Balance at rewards window start
 
-**eth1_addr**: Eth1 addres which created minipool. Used to track top performing validator per node for **rewards_rank**
+**eth1_addr**: Eth1 address which created minipool. Used to track top performing validator per node for **rewards_rank**
 
 **pub**: Validator public key.
